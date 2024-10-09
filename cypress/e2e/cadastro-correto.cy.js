@@ -1,15 +1,9 @@
 describe('Página de cadastro', () => {
-  beforeEach(() => {
-    cy.visit('https://adopet-frontend-cypress.vercel.app/');
-    cy.contains('a', 'Cadastrar').click();
+  beforeEach(() =>{
+      cy.visit('https://adopet-frontend-iota.vercel.app/');
+      cy.get('[data-test="register-button"]').click();
+  })   
+      it('Deve preencher os campos do cadastro corretamente e clicar no botão cadastrar', () => {
+          cy.cadastrar('Marjorie Anoquevem','marjorie@email.com', 'Senha123')  
   })
-
-  it('Preencher os campos do formulário corretamente para cadastrar um novo usuário', () => {
-    cy.get('input[name="nome"]').type('Antonio');
-    cy.get('input[name="email"]').type('Antonio@email.com');
-    cy.get('input[name="password"]').type('Senha123');
-    cy.get('input[name="confirm_password"]').type('Senha123');
-    cy.contains('button', 'Cadastrar').click();
-  })
-
 })
