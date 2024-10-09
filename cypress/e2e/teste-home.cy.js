@@ -1,6 +1,6 @@
-describe('Teste de páginas no Adopet', () => {
+describe('Página de home', () => {
     beforeEach(() => {
-        cy.visit('https://adopet-frontend-cypress.vercel.app/');
+      cy.visit('https://adopet-frontend-cypress.vercel.app/');
     })
 
     it('deve  clicar no botão ‘Ver pets disponíveis para adoção”', () => {
