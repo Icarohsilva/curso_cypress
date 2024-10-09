@@ -10,6 +10,11 @@ cypress/reports/*
 cypress/screenshots/*
 cypress/videos/*
 
+/.env: Ignora o arquivo de variáveis de ambiente.
+/logs/: Ignora todos os arquivos dentro da pasta logs.
+*.tmp: Ignora todos os arquivos que terminam com .tmp.
+node_modules/: Ignora todos os arquivos e pastas dentro da pasta node_modules.
+
 # End of https://www.toptal.com/developers/gitignore/api/cypressio
 
 
