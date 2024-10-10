@@ -1,0 +1,35 @@
+{
+    "usuarios": [
+      {
+        "name": "Tony Stark",
+        "email": "tony.stark@alura.com.br",
+        "password": "IronMan2024"
+      },
+      {
+        "name": "Steve Rogers",
+        "email": "steve.rogers@alura.com",
+        "password": "CapAmerica2024"
+      },
+      {
+        "name": "Natasha Romanoff",
+        "email": "natasha.romanoff@alura.com.br",
+        "password": "BlackWidow2024"
+      },
+      {
+        "name": "Bruce Banner",
+        "email": "bruce.banner@alura.com",
+        "password": "HulkSmash2024"
+      },
+      {
+        "name": "Clint Barton",
+        "email": "clint.barton@alura.com",
+        "password": "Hawkeye2024"
+      },
+      {
+        "name": "Wanda Maximoff",
+        "email": "wanda.maximoff@alura.com.br",
+        "password": "ScarletWitch2024"
+      }
+    ]
+  }
+  
