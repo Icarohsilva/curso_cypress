@@ -9,6 +9,7 @@ cypress/results/*
 cypress/reports/*
 cypress/screenshots/*
 cypress/videos/*
+cypress.env.json
 
 /.env: Ignora o arquivo de variáveis de ambiente.
 /logs/: Ignora todos os arquivos dentro da pasta logs.
